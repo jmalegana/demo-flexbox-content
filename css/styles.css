@@ -36,3 +36,11 @@ li {
 .f {
     background-color: #9370db;
 }
+
+/*Flexbox responds to the content and their natural widths first, then it distribtures leftover space on the row.*/
+
+ul.flex {
+    display: flex; /*Flex items go on one row. */
+    /*Justify-content deals with the left space on the main axis of the row.*/
+    justify-content:center ; /*Only works if you have left-over space in the row.*/
+}
